@@ -5,6 +5,16 @@ import musicImage from './music.png';
 import musicInsetImage from './music-small.svg';
 import penImage from './pen.png';
 import penInsetImage from './pen-small.svg';
+/*** sean***/
+import seanpenImage from './seanpen.png';
+import seanpenInsetImage from './seanpen-small.svg';
+
+import seanbrowserImage from './translate2.png';
+import seanbrowernsetImage from './80_translate2.png';
+
+import seanlabImage from './SEANLAB_EXT.png';
+import seanlabsetImage from './SEANLAB_250x250_logo.png';
+
 import videoImage from './video-sensing.png';
 import videoInsetImage from './video-sensing-small.svg';
 import translateImage from './translate.png';
@@ -14,6 +24,8 @@ import ev3Image from './ev3.png';
 import wedoImage from './wedo.png';
 import text2speechImage from './text2speech.png';
 import text2speechInsetImage from './text2speech-small.svg';
+
+
 
 import microbitPeripheralImage from './peripheral-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './peripheral-connection/microbit/microbit-small.svg';
@@ -64,6 +76,68 @@ export default [
         ),
         featured: true
     },
+/*** sean***/
+   {
+        name: (
+            <FormattedMessage
+                defaultMessage="Pen"
+                description="Name for the 'Pen' extension"
+                id="gui.extension.pen.name"
+            />
+        ),
+        extensionId: 'seanpen',
+        iconURL: seanpenImage,
+        insetIconURL: seanpenInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Draw with your sprites."
+                description="Description for the 'Pen' extension"
+                id="gui.extension.pen.description"
+            />
+        ),
+        featured: true
+    },
+   {
+        name: (
+            <FormattedMessage
+                defaultMessage="SEANBrowser"
+                description="sean Browser extension"
+                id="gui.extension.seanbrowser.name"
+            />
+        ),
+        extensionId: 'seanbrowser',
+        iconURL: seanbrowserImage,
+        insetIconURL: seanbrowernsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="SEAN Browser"
+                description="sean Browser extension"
+                id="gui.extension.seanbrower.description"
+            />
+        ),
+        featured: true
+    },
+   {
+        name: (
+            <FormattedMessage
+                defaultMessage="SEANLab"
+                description="seanlab logo"
+                id="gui.extension.seanlab.name"
+            />
+        ),
+        extensionId: 'seanlablogo',
+        iconURL: seanlabImage,
+        insetIconURL: seanlabsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="SEANLAB "
+                description="seanlab extension"
+                id="gui.extension.seanlab.description"
+            />
+        ),
+        featured: true
+    },
+/*** sean***/
     {
         name: (
             <FormattedMessage
