@@ -15,6 +15,9 @@ import seanbrowernsetImage from './80_translate2.png';
 import seanlabImage from './SEANLAB_EXT.png';
 import seanlabsetImage from './SEANLAB_250x250_logo.png';
 
+import seanlabmakeyImage from './SEANLAB_makeymakey.png';
+import seanlabmakeysetImage from './SEANLAB_makeymakey_logo.svg';
+
 import videoImage from './video-sensing.png';
 import videoInsetImage from './video-sensing-small.svg';
 import translateImage from './translate.png';
@@ -133,6 +136,26 @@ export default [
                 defaultMessage="SEANLAB "
                 description="seanlab extension"
                 id="gui.extension.seanlab.description"
+            />
+        ),
+        featured: true
+    },
+   {
+        name: (
+            <FormattedMessage
+                defaultMessage="SEANLAB Makey"
+                description="seanlab logo"
+                id="gui.extension.seanlabmakey.name"
+            />
+        ),
+        extensionId: 'seanlabmakeylogo',
+        iconURL: seanlabmakeyImage,
+        insetIconURL: seanlabmakeysetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="SEANLAB "
+                description="seanlab extension"
+                id="gui.extension.seanlabmakey.description"
             />
         ),
         featured: true
